@@ -41,7 +41,13 @@ img{
     flex: 1;
 }
 
-.conteudo_icons{
+.conteudo__icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.conteudo_icon{
     text-decoration: none;
     color: white;
 }
