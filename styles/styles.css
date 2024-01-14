@@ -14,7 +14,6 @@ body{
 }
 
 
-
 .cabecalho__img-1{
     width: 100%;
     height: 35vh;
@@ -25,8 +24,14 @@ body{
 @media screen and (min-width: 480px) {
     .cabecalho__img-1 {
         display: none;
-    }
+    } 
   }
+@media screen and (min-width: 480px) {
+    .cabecalho__img {
+        width: 15%;
+    } 
+  }
+  
 
 .cabecalho__items{
     height: 100%;
@@ -43,7 +48,7 @@ img{
 
 .conteudo__icons{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 
